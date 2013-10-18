@@ -1,0 +1,80 @@
+﻿.yui-dt table, .yui3-datatable-table
+{
+    width: 100%;
+}
+
+.yui-dt table thead tr th
+{
+    text-align: left;
+}
+
+.yui-skin-sam .yui-ac-input
+{
+    width: 300px !important;
+}
+
+#totalTracks
+{
+    font-style: italic;
+}
+
+.progress
+{
+    margin-bottom: 0px;
+}
+
+.progress .bar
+{
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+#paginatorTop
+{
+    margin: 0px 0px 0px 0px !important;
+}
+
+#paginatorBottom
+{
+    margin-top: 5px;
+}
+
+.columnOptions
+{
+    width: 45px;
+}
+
+/* YUI Paginator styles for Twitter Bootstrap */
+.yui-custom-paginator .linkBlock {
+	float: left;
+	padding: 0 14px;
+	line-height: 34px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+}
+
+.yui-custom-paginator > span,
+.yui-custom-paginator .active {
+	background-color: #f5f5f5;
+	color: #999999;
+	cursor: default;
+}
+
+.yui-custom-paginator > span:first-child,
+.yui-custom-paginator > a:first-child {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.yui-custom-paginator > span:last-child,
+.yui-custom-paginator > a:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
